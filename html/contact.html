@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<link href="../css/style-clair.css" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="../images/Icon-BUT.png"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Site du BUT - Page Contact </title>
+    </head>
+
+    <body>
+
+       <!-- HEADER -->
+       <header>
+            
+        <!-- Logos -->
+        <div class="logos">
+                
+            <img src="../images/logo_iut.png" alt="Logo de l'IUT de Toulouse" class="logo-iut">
+            <img src="../images/logo_paul_sabatier.jpeg" alt="Logo de l'Université Paul Sabatier" class="logo-ps">
+            <a href="https://but.iut.fr"><img src="../images/logo_but.png" alt="Logo du Bachelor Universitaire de Technologie" class="logo-but"></a>
+
+        </div>
+
+        <!-- navigation -->
+        <nav> 
+
+            <!-- navigation burger -->
+
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
+            <ul class="menu">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="presentation_but.html">Présentation du BUT</a></li>
+                    
+                <li class="deroulant">
+                    <a href="#">Compétences <i class="fas fa-caret-down"></i></a>
+                    <ul class="sous-menu">
+                        <li><a href="competence1.html">Compétence 1</a></li>
+                        <li><a href="competence2.html">Compétence 2</a></li>
+                        <li><a href="competence3.html">Compétence 3</a></li>
+                        <li><a href="competence4.html">Compétence 4</a></li>
+                        <li><a href="competence5.html">Compétence 5</a></li>
+                        <li><a href="competence6.html">Compétence 6</a></li>
+                    </ul>
+                </li>
+
+                <li class="select"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+        <main class="main-contact">
+            <article>
+                <h1>Contact</h1>
+                <section class="contact formul">
+                    <h2 class="cache">Formulaire de contact</h2>
+                    <form>
+                            <fieldset>
+                                <legend>Nous envoyer un message</legend>
+                                    <div class="infos">
+                                        <label for="user_nom">Votre nom :</label>
+                                        <input type="text" name="nom" id="user_nom" placeholder="Ex : Dubois" autofocus required/><br>
+        
+                                        <label for="user_prenom">Votre prénom :</label>
+                                        <input type="text" name="prenom" id="user_prenom" placeholder="Ex : Emile" required/><br>
+        
+                                        <label for="user_email">Votre email :</label>
+                                        <input type="email" name="email" id="user_email" placeholder="exemple@mail.com" required/><br>
+        
+                                        <button type="submit">Envoyer</button>
+                                    </div>
+                                    <div class="message">
+                                        <textarea name="message" id="user_message" placeholder="Ecrire votre message" required></textarea>
+                                    </div>
+                            </fieldset>
+                    </form>
+                </section>
+                <section class="contact">
+                    <h2 class="cache">Renseignements</h2>
+                    <img class="photo-iut" src="../images/photo-iut.png" alt="photo du batiment IUT Informatique de l'Université Toulouse 3">
+                    <div class="adresse">
+                        <h3>Adresse de l'IUT</h3>                       
+                        <p>
+                        IUT Paul Sabatier : informatique <br/>
+                        133 B Av. de Rangueil, <br/>
+                        31400 Toulouse
+                        </p>
+                        <!-- <img class="carte-iut" src="../images/carte-iut.png" alt="carte avec la position de l'IUT">-->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5781.699637852799!2d1.4573002270931528!3d43.56801236649701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aebc40791e610b%3A0x44186f8c0017dff1!2sIUT%20Paul%20Sabatier%20(site%20de%20Rangueil)!5e0!3m2!1sfr!2sfr!4v1637678271892!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </section>
+            </article>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="d-flex">
+                    
+            <div class="element">
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="presentation_but.html">Présentation du BUT</a></li>
+                    <li>
+                        <a href="#">Compétences</a>
+                        
+                        <ul class="underlist">
+                            <li><a href="competence1.html">Compétence 1</a></li>
+                            <li><a href="competence2.html">Compétence 2</a></li>
+                            <li><a href="competence3.html">Compétence 3</a></li>
+                            <li><a href="competence4.html">Compétence 4</a></li>
+                            <li><a href="competence5.html">Compétence 5</a></li>
+                            <li><a href="competence6.html">Compétence 6</a></li>
+                        </ul>
+                    </li>
+                    <li class="select"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="element link">
+                <a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees">CNIL - RGPD</a>
+            </div>
+
+            <div class="element">
+                <h2>Qui sommes-nous ?</h2>
+                <p>
+					Entreprise developpement web
+					<br>
+					Bezara Jonathan, Ducournau Gaia, Soubaigne Brandon
+				</p>
+            </div>
+
+        </footer>
+    </body>
+</html>

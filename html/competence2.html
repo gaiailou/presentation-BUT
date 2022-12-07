@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+
+        <meta charset="utf-8">
+        <title> Site du BUT - Page Compétence 2</title>
+        <link rel="shortcut icon" type="image/png" href="../images/Icon-BUT.png"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style-clair.css">
+
+    </head>
+
+    <body>
+
+        <!-- HEADER -->
+        <header>
+            
+            <!-- Logos -->
+            <div class="logos">
+                
+                <img src="../images/logo_iut.png" alt="Logo de l'IUT de Toulouse" class="logo-iut">
+                <img src="../images/logo_paul_sabatier.jpeg" alt="Logo de l'Université Paul Sabatier" class="logo-ps">
+                <a href="https://but.iut.fr"><img src="../images/logo_but.png" alt="Logo du Bachelor Universitaire de Technologie" class="logo-but"></a>
+
+            </div>
+
+            <!-- navigation -->
+            <nav> 
+
+                <!-- navigation burger -->
+
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
+                <ul class="menu">
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="presentation_but.html">Présentation du BUT</a></li>
+                        
+                    <li class="deroulant">
+                        <a class="select" href="#">Compétences <i class="fas fa-caret-down"></i></a>
+                        <ul class="sous-menu">
+                            <li><a href="competence1.html">Compétence 1</a></li>
+                            <li><a class="select-comp" href="competence2.html">Compétence 2</a></li>
+							<li><a href="competence3.html">Compétence 3</a></li>
+                            <li><a href="competence4.html">Compétence 4</a></li>
+                            <li><a href="competence5.html">Compétence 5</a></li>
+                            <li><a href="competence6.html">Compétence 6</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main id="main-c2">
+            <h1>Optimiser des applications informatiques</h1>
+
+            <!-- PREMIER BLOC -->
+            <section class="comp section d-flex">
+                <h2 class="cache">Apprentissage critique du niveau 1 de la compétence 2</h2>
+                <img src="../images/C2.png" alt="Compétence 2 : Optimiser des applications informatiques">
+                <div class="comp intro">
+                    <ul>
+                        <li>Analyser un problème ave méthode (découpage en éléments algorithmiques simples, structure de données...)</li>
+                        <li>des algorithmes pour des problèmes classiques (tris simples, recherche...)</li>
+                        <li>Expérimenter la notion de compilation et les représentations bas niveau des données</li>
+                        <li>et mettre en œuvre des outils mathématiques pour l'informatique</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- SECOND BLOC -->
+            <section class="comp section">
+                <h2>Ressources</h2>
+                <table class="comp resources-table r1 comp2">
+                    <thead>
+                        <tr>
+                            <th>Ressource</th>
+                            <th>R1.01 Initiation au développement</th>
+                            <th>R1.03 Introduction à l'architecture des ordinateurs</th>
+                            <th>R1.04 Introduction aux systèmes d'exploitation et à leur fonctionnement</th>
+                            <th>R1.06 Mathématiques discrètes</th>
+                            <th>R1.07 Outils mathématiques fondamentaux</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Coefficient</td>
+                            <td>24</td>
+                            <td>3</td>
+                            <td>3</td>
+                            <td>15</td>
+                            <td>15</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- TROISIÈME BLOC -->
+            <section class="comp section sae">
+                <h2>S1.02 Comparaison d'approches algorithmiques</h2>
+                <p>En partant d'un besoin exprimé par un client, il faut réaliser une implémentation, comparer plusieurs approches pour la résolution d'un problème et effectuer des mesures de performance simples. Cette SAÉ permet une première réflexion autour des stratégies algorithmiques pour résoudre un même problème.</p>
+            </section>
+
+            <!-- QUATRIÈME BLOC ET LE RESTE -->
+            <section class="comp section">
+                <div class="comp resource">
+                    <div class="d-flex">
+                        <h2 class="code-C2">R1.01</h2>
+                        <h3 class="name">Initiation au développement</h3>
+                    </div>
+                    <div class="skills">
+                        <p>Implémenter des conceptions simples</p>
+                        <p>Élaborer des conceptions simples</p>
+                        <p>Faire des essais et évaluer leurs résultats en regard des spécifications</p>
+                    </div>
+                    <div>
+                        <p>L'objectif de cette ressource est l'initiation au développement. Les savoirs de référence suivants devront être étudiés :</p>
+                        <ul>
+                            <li>Algorithmes fondamentaux (structures simples, recherche d'un élément, parcours, tri...)</li>
+                            <li>Algorithmes sur les structures de données (itératifs et/ou récursifs)</li>
+                            <li>Manipulation de listes, tableaux, collections dynamiques, statiques (accès direct ou
+                                séquentiels), piles, files, structures</li>
+                            <li>Types abstraits de données simples : première approche de l'encapsulation</li>
+                            <li>Notions de modularité</li>
+                            <li>Premières notions de qualité (ex : nommage, assertions, documentation, sûreté de
+                                fonctionnement, jeu d'essais, performance...)</li>
+                            <li>Lecture/écriture de fichiers</li>
+                            <li>Présentation de la gestion de versions</li>
+                        </ul>
+                        <p>Cette ressource est à la base des apprentissages des compétences 1 et 2. En effet, la réalisation d'un développement d'application et l'optimisation des applications informatiques nécessitent l'apprentissage du développement.</p>
+                    </div>
+                </div>
+
+                <div class="comp resource">
+                    <div class="d-flex">
+                        <h2 class="code-C2">R1.03</h2>
+                        <h3 class="name">Introduction à l'architecture des ordinateurs</h3>
+                    </div>
+                    <div class="skills">
+                        <p>Aucun apprentissage critique...</p>
+                    </div>
+                    <div>
+                        <p>L'objectif de cette resource est de découvrir la structure et les composants d'un ordinateur. Les savoirs de référence suivants devront être étudiés:</p>
+                        <ul>
+                            <li>Architecture générale d'un ordinateur, histoire et évolution de l'informatique</li>
+                            <li>Codage (codage des informations de base : nombres, caractères)</li>
+                            <li>Arithmétique des traitements associés</li>
+                            <li>Etude d'un ordinateur personnel (composants...)</li>
+                            <li>Evolution des technologies et des systèmes</li>
+                        </ul>
+                        <p>Cette resource permettra de découvrir les différents composants matériels et logiciels interns qui constituent un ordinateur, de manière à appréhender le fonctionnement, mais aussi les limites de leur utilisation.</p>
+                    </div>
+                </div>
+
+                <div class="comp resource">
+                    <div class="d-flex">
+                        <h2 class="code-C2">R1.04</h2>
+                        <h3 class="name">Introduction aux systèmes d'exploitation et à leur fonctionnement</h3>
+                    </div>
+                    <div class="skills">
+                        <p>Aucun apprentissage critique...</p>
+                    </div>
+                    <div>
+                        <p>L'objectif de cette resource est de comprendre le rôle, les composants et le fonctionnement d'un système 'exploitation. Les savors de référence suivants devront être étudiés:</p>
+                        <ul>
+                            <li>Caractéristiques et types de systèmes d'exploitations</li>
+                            <li>Langage de commande (commandes de base, introduction à la programmation des scripts)</li>
+                            <li>Gestion des processus (création, destruction, suivi, etc.)</li>
+                            <li>Gestion des fichiers (types, droits, etc.)</li>
+                            <li>Gestion des utilisateurs (caractéristiques, création, suppression, etc.)</li>
+                            <li>Principes de 'installation et de la configuration d'un système : notion de noyau, de pilotes, de fichiers de configuration, boot système...</li>
+                        </ul>
+                        <p>Cette resource permettra de découvrir les principes d'un système d'exploitation, leur mode de fonctionnement et les différents types existants. Elle contribuera à comprendre comment installer un système sur une machine et à le personnaliser en développant des fonctions simples facilitant la configuration et le paramétrage.</p>
+                    </div>
+                </div>
+
+                <div class="comp resource">
+                    <div class="d-flex">
+                        <h2 class="code-C2">R1.06</h2>
+                        <h3 class="name">Mathématiques discrètes</h3>
+                    </div>
+                    <div class="skills">
+                        <p>Aucun apprentissage critique...</p>
+                    </div>
+                    <div>
+                        <p>L'objectif de ce module est de mettre en place les outils mathématiques nécessaires aux bases de l'informatique. Les savoirs de référence suivants devront être étudiés:</p>
+                        <ul>
+                            <li>Logique (prédicats, propositions...)</li>
+                            <li>Théorie des ensembles</li>
+                            <li>Dénombrement</li>
+                            <li>Algèbre de Boole</li>
+                            <li>Arithmétique modulaire</li>
+                            <li>Relations, applications</li>
+                            <li>Numération</li>
+                        </ul>
+                        <p>Cette resource aide à formaliser et mettre en œuvre des outils mathématiques pour l'informatique. Elle accompagne la mise en place des bases de données en explicitant les structures fondamentales de ces dernières.</p>
+                    </div>
+                </div>
+
+                <div class="comp resource">
+                    <div class="d-flex">
+                        <h2 class="code-C2">R1.07</h2>
+                        <h3 class="name">Outils mathématiques fondamentaux</h3>
+                    </div>
+                    <div class="skills">
+                        <p>Aucun apprentissage critique...</p>
+                    </div>
+                    <div>
+                        <p>L'objectif de cette resource est la remise à niveau des notions mathématiques de base. Les savoirs de référence suivants devront être étudiés</p>
+                        <ul>
+                            <li>Calcul numérique et algébrique</li>
+                            <li>Systèmes et matrices (pivot de Gauss)</li>
+                            <li>Graphes de fonction</li>
+                            <li>Polynômes</li>
+                            <li>Géométrie du plan</li>
+                        </ul>
+                        <p>Cette resource done les outils mathématiques fondamentaux nécessaires à la programmation informatique.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- RETOUR HAUT DE PAGE -->
+            <a class="goto-anchor" href="#main-C2">Retourner au haut de la page</a>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="d-flex">
+                    
+            <div class="element">
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="presentation_but.html">Présentation du BUT</a></li>
+                    <li>
+                        <a href="#">Compétences</a>
+                        
+                        <ul class="underlist">
+                            <li><a href="competence1.html">Compétence 1</a></li>
+                            <li><a href="competence2.html">Compétence 2</a></li>
+                            <li><a href="competence3.html">Compétence 3</a></li>
+                            <li><a href="competence4.html">Compétence 4</a></li>
+                            <li><a href="competence5.html">Compétence 5</a></li>
+                            <li><a href="competence6.html">Compétence 6</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="element link">
+                <a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees">CNIL - RGPD</a>
+            </div>
+
+            <div class="element">
+                <h2>Qui sommes-nous ?</h2>
+                <p>
+					Entreprise developpement web
+					<br>
+					Bezara Jonathan, Ducournau Gaia, Soubaigne Brandon
+				</p>
+            </div>
+
+        </footer>
+    </body>
+
+</html>
